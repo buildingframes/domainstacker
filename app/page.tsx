@@ -1,7 +1,7 @@
 'use client';
 import { useMemo, useState } from 'react';
 import { ArrowRight, CheckCircle2, Clock3, Layers3, Sparkles, ShieldCheck, Star, Zap } from 'lucide-react';
-import { Footer } from '@/components/Footer';
+import { Footer } from '../components/Footer';
 
 type Idea = { name:string; domain:string; angle:string; score:number; tlds:string[] };
 
