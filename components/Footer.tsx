@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export function Footer(){return <footer className="border-t bg-white/70"><div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-8 text-sm text-slate-600 md:flex-row md:items-center md:justify-between"><p>© {new Date().getFullYear()} DomainStacker. Some links may be affiliate links.</p><div className="flex gap-5"><Link href="/privacy" className="hover:text-ink">Privacy</Link><Link href="/terms" className="hover:text-ink">Terms</Link><a href="mailto:privacy@domainstacker.example" className="hover:text-ink">Contact</a></div></div></footer>}

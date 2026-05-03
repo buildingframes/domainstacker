@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { margin: 0; background: #f8fbfc; color: #0B1220; }
+* { box-sizing: border-box; }
+.gradient-grid { background-image: radial-gradient(circle at 1px 1px, rgba(32,195,202,.18) 1px, transparent 0); background-size: 28px 28px; }
